@@ -2,6 +2,78 @@
 
 Estos son los cambios hechos en la ECORED-BASE-2021
 
+## 6.3.1 - 28-06-2022
+
+### Agregado
+
+- Componente dialogo se puede modificar el feedback
+
+## 6.3.0 - 19-06-2022
+
+### Cambios
+
+- /package.json => "ecored-base-pkg": "5.3.0"
+- /src/styles/_styles.sass
+- /src/styles/_variables.sass
+- /src/assets/template/green-check.svg
+- /src/assets/template/red-x.svg
+
+### Agregado
+
+- Componente dialogo de arrastrar y soltar para ingles
+
+### Arreglado
+
+- compatibilidad del componente audio con mobiles
+
+## 6.2.1 - 13-06-2022
+
+### Arreglado
+
+- Las clases para animaciones no funcionavan
+
+#
+## 6.2.0 - 10-06-2022
+
+### Agregado
+
+- En el objeto global se puede agregar imagenes decorativas para el banner principal
+
+### Arreglado
+
+- El tamano de letra de los encabezados de las tablas
+
+### Eliminado
+
+- Animaciones que generan problemas en el main container
+
+#
+## 6.1.1 - 09-06-2022
+
+### Arreglado
+
+- En componente TarjetaAudio se agrego prop para quitar la barra de progreso
+
+#
+## 6.1.0 - 08-06-2022
+
+### Cambios
+
+- /package.json => "ecored-base-pkg": "5.1.1"
+
+### Agregado
+
+- Componente Audio
+- COmponente TarjetaAudio
+
+## 6.0.0 - 01-06-2022
+
+### Arreglado
+
+- Nuevo material complementario
+
+#
+
 ## 5.1.0 - 01-12-2021
 
 ### Agregado

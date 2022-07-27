@@ -1,19 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    componenteFormativo: 'Procesos Productivos Sostenibles',
+    descripcionCurso:
+      'En este componente formativo se abordan temas que le permitirán entender de forma general el ciclo de vida de un producto y la importancia de entender e implementar sostenibilidad en los procesos productivos de una organización',
+    imagenBannerPrincipal: '',
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
     menu: [
@@ -32,31 +24,65 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Producción sostenible',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Beneficios en la producción',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Huellas (ecológica, carbono, hídrica)',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Sostenibilidad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Criterios de sostenibilidad',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo:
+              'Elementos clave de sostenibilidad en los procesos de la organización',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ciclo de vida del producto',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Etapas del ciclo de vida',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Beneficios del ciclo de vida',
+            hash: 't_3_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -64,7 +90,6 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'actividad',
@@ -99,34 +124,104 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia:
+        'Castrillón, M. & Mares, A. (2014). Revisión sobre la sostenibilidad empresarial. Revista de estudios avanzados de liderazgo, 1(3), p. 52-77.',
+      link: '',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Frohmann, A. & Olmos, X. (2013). Huella de carbono, exportaciones y estrategias empresariales frente al cambio climático. Naciones Unidas CEPAL.',
+      link: '',
+    },
+    {
+      referencia:
+        'Magnaghi, A. (2011). El proyecto local: hacia una consciencia del lugar. Universitat Politècnica de Catalunya. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Olivera, A., Cristóbal, S. y Saizar, C. (2016). Análisis del ciclo de vida ambiental, económico y social, una herramienta para la evaluación de impactos  y soporte  para la toma de decisiones. INNOTEC Gestión. ',
+      link: 'https://catalogo.latu.org.uy/opac_css/doc_num.php?explnum_id=2238',
+    },
+    {
+      referencia:
+        'Ordoñez, M. & Meneses, L. (2015). Criterios e indicadores de sostenibilidad en el subsector VI. Ciencia e Ingeniería Neogranadina, 25(2), p. 81-98.',
+      link: '',
+    },
+    {
+      referencia:
+        'Organización de las Naciones Unidas. (2017). ONU Medio ambiente, abogando el consumo y la producción sostenible. ONU.',
+      link: '',
+    },
+    {
+      referencia:
+        'Sánchez, E. (2015). Ciclo de vida de producto. Modelos y utilidad para el marketing. Anuario del Centro de la Universidad Nacional de Educación a Distancia en Calatayud.',
+      link: '',
+    },
+    {
+      referencia:
+        'Schneider, H. & Samaniego, J. (2009). La huella del carbono en la producción, distribución y consumo de bienes y servicios. Comisión Económica para América Latina y el Caribe - CEPAL.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Ciclo de vida',
+      significado:
+        'Periodo de tiempo en el cual un producto produce ventas y utilidades hasta su retiro del mercado.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Desarrollo sostenible',
+      significado:
+        'Desarrollo que satisface las necesidades actuales de las personas sin comprometer la capacidad de las futuras generaciones para satisfacer las suyas.',
+    },
+    {
+      termino: 'Huella ecológica',
+      significado:
+        'ndicador ambiental de carácter integrador del impacto que ejerce una cierta comunidad humana, país, región o ciudad sobre su entorno; consideran tanto los recursos necesarios como los residuos generados para el mantenimiento del modelo de producción y consumo de la comunidad.',
+    },
+    {
+      termino: 'Producción',
+      significado:
+        'Elaboración de bienes y servicios en unas condiciones prefijadas.',
+    },
+    {
+      termino: 'Sostenibilidad',
+      significado:
+        'Características del desarrollo que aseguran satisfacer las necesidades de las generaciones presentes, sin comprometer las necesidades de las generaciones futuras.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
+      tema: 'Ciclo de vida del producto',
+      referencia:
+        'Economía desde casa. (2020). Ciclo de vida de un producto [video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://youtu.be/r3OD49_m7Ls',
+    },
+    {
+      tema: 'Ciclo de vida del producto',
+      referencia:
+        'Olivera, A. Cristobal, S. Saizar, C. (2016). Análisis del ciclo de vida ambiental, económico y social, una herramienta para la evaluación de impactos  y soporte  para la toma de decisiones. INNOTEC Gestión.',
+      tipo: 'Artículo',
+      link: 'https://catalogo.latu.org.uy/opac_css/doc_num.php?explnum_id=2238',
+    },
+    {
+      tema: 'Sostenibilidad',
+      referencia:
+        'Archel, P. (2003). Las memorias de sostenibilidad de la Global Reporting Initiative. Universidad Pública de Navarra.',
+      tipo: 'Memorias',
+      link:
+        'https://academica-e.unavarra.es/bitstream/handle/2454/23826/ArchelMemoriaSostenibilidad.pdf?sequence=1&isAllowed=y',
+    },
+    {
+      tema: 'Sostenibilidad',
+      referencia:
+        'Ministerio de Ambiente y Desarrollo Sostenible – Colombia. (2015). Aprendamos sobre negocios verdes y sostenibles [video].  YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=rfD-UKuod18',
     },
   ],
   creditos: {
@@ -144,6 +239,30 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: '',
+        cargo: '',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: '',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: '',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: '',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
     ],
     desarrolloProducto: [
       {
@@ -153,41 +272,66 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: '',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Luis Jesús Pérez Madariaga',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo front-end',
+        nombre: '',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
