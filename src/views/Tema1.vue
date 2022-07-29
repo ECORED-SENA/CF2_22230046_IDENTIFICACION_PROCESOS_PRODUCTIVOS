@@ -100,10 +100,10 @@
                   td.p-3(style="border-right:2px white solid;") Son aquellas que provienen de fuentes que son propiedad de la entidad que reporta (ya sea una empresa u otra institución) o controladas por esta, como por ejemplo, consumo eléctrico, combustibles fósiles, embalajes, entre otras.
                   td.p-3(style="border-right:2px white solid;") Son aquellas que ocurren como consecuencia de las actividades de la entidad que reporta, pero que provienen de fuentes que no son propiedad de esta, ni tampoco controladas por ella como suele ser el transporte o las relacionadas con el uso o reciclaje del producto cuando ya está en poder del consumidor.
                   td.p-3 Son consecuencia de las actividades de la organización que ocurren fuera de esta y no son controladas o generadas por esta, como lo son los viajes, la gestión y disposición de residuos, la producción de insumos, etc.
-      .py-4.py-md-5(titulo="Huella de carbono" :icono="require('@/assets/curso/tema1/14.svg')")
+      .py-4.py-md-5(titulo="Huella hídrica" :icono="require('@/assets/curso/tema1/14.svg')")
         .row.p-4
-          p Se toma como indicador de consumo porque permite saber el volumen de agua que es utilizado para producir bienes y servicios consumidos, debido a lo anterior, hay una gran relación con la huella ecológica, pues esta última calcula el área total de espacio productivo requerido para producir los productos y servicios consumidos por una determinada población. 
-          p.mt-4  Además, la huella hídrica total de un país tiene un componente interno y otro externo, como se observa a continuación:
+          p Se toma como indicador de consumo porque permite saber el volumen de agua que es utilizado para producir bienes y servicios consumidos, debido a lo anterior, hay una gran relación con la #[strong huella ecológica], pues esta última calcula el área total de espacio productivo requerido para producir los productos y servicios consumidos por una determinada población. 
+          p.mt-4  Además, la #[strong huella hídrica] total de un país tiene un componente interno y otro externo, como se observa a continuación:
 
           .tabla-a.color-acento-botones.mt-5.col-md-8.m-auto
             table
@@ -114,7 +114,7 @@
               tbody
                 tr(style="background-color:#E8E9EA;")
                   td.p-3(style="border-right:2px white solid;") Se refiere al volumen de agua necesario para cultivar y proporcionar los bienes y servicios que se producen y consumen dentro de ese país.
-                  td.p-3 Es el resultante del consumo de bienes importados, es el agua que se utiliza para la producció0n de bienes en el país exportador.
+                  td.p-3 Es el resultante del consumo de bienes importados, es el agua que se utiliza para la producción de bienes en el país exportador.
 
     br
     br
