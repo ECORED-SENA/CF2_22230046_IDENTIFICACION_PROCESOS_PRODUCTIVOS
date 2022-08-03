@@ -22,7 +22,7 @@
     .mt-4.p-4(style="background-color:#0E8282;")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/pd7gMTiQmU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     br
     .row.mt-5
@@ -167,25 +167,25 @@
           figure.text-center.mt-4.p-4.col-9.m-auto(style="background-color:#1FA7A7;border-radius:20px;")
             img(src="@/assets/curso/tema2/18.png" data-aos="zoom-in-up" style="display:inline;width:150px;height:150px;")
           p.mt-4(style="color:white;" data-aos="fade-up") #[strong El aprovechamiento óptimo de los recursos, pensando en su cuidado y preservación]
-          h1.mb-0.text-end.mt-5(style="color:rgb(236,245,245,0.37);font-size:80px;" data-aos="fade-up") 01
+          h1.mb-0.text-end.mt-5(style="color:rgb(236,245,245,0.37);font-size:80px;position:absolute;bottom:0;right:10px" data-aos="fade-up") 01
       .col-lg-3
         .mb-5.p-3.cont_final_tema2(style="background-color:#0E8282;border-radius:20px;box-shadow:0px 17px 15px rgba(0,0,0,.20);position:relative;height:100%;")
           figure.text-center.mt-4.p-4.col-9.m-auto(style="background-color:#1FA7A7;border-radius:20px;")
             img(src="@/assets/curso/tema2/19.png" data-aos="zoom-in-up" style="display:inline;width:150px;height:150px;")
-          p.mt-4(style="color:white;" data-aos="fade-up") #[strong El aprovechamiento óptimo de los recursos, pensando en su cuidado y preservación]
-          h1.mb-0.text-end.mt-5(style="color:rgb(236,245,245,0.37);font-size:80px;" data-aos="fade-up") 02
+          p.mt-4(style="color:white;" data-aos="fade-up") #[strong Desarrollo e implementación de tecnologías innovadoras que creen soluciones sostenibles a nivel económico, social y ambiental.]
+          h1.mb-0.text-end.mt-5(style="color:rgb(236,245,245,0.37);font-size:80px;position:absolute;bottom:0;right:10px" data-aos="fade-up") 02
       .col-lg-3
         .mb-5.p-3.cont_final_tema2(style="background-color:#0E8282;border-radius:20px;box-shadow:0px 17px 15px rgba(0,0,0,.20);position:relative;height:100%;")
           figure.text-center.mt-4.p-4.col-9.m-auto(style="background-color:#1FA7A7;border-radius:20px;")
             img(src="@/assets/curso/tema2/20.png" data-aos="zoom-in-up" style="display:inline;width:150px;height:150px;")
-          p.mt-4(style="color:white;" data-aos="fade-up") #[strong El aprovechamiento óptimo de los recursos, pensando en su cuidado y preservación]
-          h1.mb-0.text-end.mt-5(style="color:rgb(236,245,245,0.37);font-size:80px;" data-aos="fade-up") 03
+          p.mt-4(style="color:white;" data-aos="fade-up") #[strong Limitar la utilización de los recursos de tal manera que se utilicen los recursos renovables, sin superar su ritmo de generación y sustituir paulatinamente la utilización de recursos no renovables por recursos renovables.]
+          h1.mb-0.text-end.mt-5(style="color:rgb(236,245,245,0.37);font-size:80px;position:absolute;bottom:0;right:10px" data-aos="fade-up") 03
       .col-lg-3
         .mb-5.p-3.cont_final_tema2(style="background-color:#0E8282;border-radius:20px;box-shadow:0px 17px 15px rgba(0,0,0,.20);position:relative;height:100%;")
           figure.text-center.mt-4.p-4.col-9.m-auto(style="background-color:#1FA7A7;border-radius:20px;")
             img(src="@/assets/curso/tema2/21.png" data-aos="zoom-in-up" style="display:inline;width:150px;height:150px;")
-          p.mt-4(style="color:white;" data-aos="fade-up") #[strong El aprovechamiento óptimo de los recursos, pensando en su cuidado y preservación]
-          h1.mb-0.text-end.mt-5(style="color:rgb(236,245,245,0.37);font-size:80px;" data-aos="fade-up") 04
+          p.mt-4(style="color:white;" data-aos="fade-up") #[strong Buscar no solo el crecimiento empresarial, si no también generar un desarrollo que sea sostenible en el tiempo desde el ambiente económico, social y ambiental.]
+          h1.mb-0.text-end.mt-5(style="color:rgb(236,245,245,0.37);font-size:80px;position:absolute;bottom:0;right:10px" data-aos="fade-up") 04
 
 
 

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Procesos Productivos Sostenibles',
     descripcionCurso:
-      'En este componente formativo se abordan temas que le permitirán entender de forma general el ciclo de vida de un producto y la importancia de entender e implementar sostenibilidad en los procesos productivos de una organización',
+      'En este componente formativo se abordan temas que le permitirán comprender de forma general, el ciclo de vida de un producto y la importancia de implementar la sostenibilidad en los procesos productivos de una organización',
     imagenBannerPrincipal: '',
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [],
@@ -235,33 +235,34 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable del equipo de Diseño Instruccional',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Diana Julieth Núñez Ortegón',
+        cargo: 'Experta temática',
+        centro: 'Regional Tolima - Centro de Comercio y Servicios',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Yisela Andrea Vidales Vásquez',
+        cargo: 'Experta temática',
+        centro: 'Regional Tolima - Centro de Comercio y Servicios',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Caterine Bedoya Mejía',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesora metodológica',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Correctora de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
       },
     ],
     desarrolloProducto: [
@@ -277,7 +278,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
+        nombre: 'Anllelo Andres Reina Montañez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -289,43 +290,42 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'John Jairo Arciniegas González',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Ludwyng Corzo Garcí',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'María Carolina Tamayo López',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guión audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
