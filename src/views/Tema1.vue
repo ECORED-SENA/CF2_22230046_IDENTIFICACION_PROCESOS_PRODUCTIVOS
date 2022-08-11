@@ -251,4 +251,9 @@ export default {
   left: -10%
 .bloque-texto-b.color-primario:before
   background-color: #E1EFEF
+@media only screen and (max-width: 720px)
+  .cont_1:before
+    width: 100%
+  .parrafo_1:before
+    width: 100%
 </style>

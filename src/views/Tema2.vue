@@ -271,4 +271,7 @@ export default {
   color: #12263F !important
 .cont_final_tema2:hover figure
   background-color: #0E8282 !important
+@media only screen and (max-width: 720px)
+  .cont_2_1:before
+    width: 100%
 </style>
