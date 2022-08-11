@@ -9,7 +9,7 @@
 
     p(data-aos="fade-up") Para garantizar el avance y sostenibilidad de las sociedades modernas es necesario que las organizaciones giren su producción hacia un enfoque de consumo y producción que contribuya a reducir los efectos ambientales negativos de los sistemas de producción, distribución y consumo, pues según datos de la ONU (2015) “el progreso económico y social conseguido durante el último siglo ha estado acompañado de una degradación medioambiental que está poniendo en peligro los mismos sistemas de los que depende el desarrollo futuro (y ciertamente, la supervivencia)”.
 
-    .row.mt-4.p-5(style="background-color:#E1EFEF;")
+    .row.mt-4.p-3(style="background-color:#E1EFEF;")
       .col-md-4(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema1/1.png" data-aos="fade-right")
@@ -22,8 +22,9 @@
 
     SlyderC.mt-4(:datos="datosSlyder")
 
-    br
-    .titulo-segundo.mt-5
+    Separador
+
+    .titulo-segundo
       h2#t_1_1 1.1  Beneficios en la producción
 
     p(data-aos="fade-up") La producción sostenible trae beneficios a mediano y largo plazo, no solo para la organización en lo que se refiere al uso razonable del capital en la compra de materias primas que tendrán mejor uso en la fabricación y mayor rentabilidad en el manejo y desempeño económico, a la par de esto, los efectos positivos de la producción sostenible se representan en el aprovechamiento eficaz de los recursos porque se disminuyen los desechos y la contaminación, incentiva el reciclaje innovando en la reutilización, lo que es conducente a generar empleos en los mercados secundarios (ONU, 2017), así como posibilita nuevas oportunidades de negocio, aunado a esto, los beneficios de la producción se traducen en los gastos operacionales de las empresas en los que tiene que ver el consumo responsable de agua y energía eléctrica, dotándolas de capacidades para mejorar la competitividad del mercado moderno.
@@ -53,9 +54,10 @@
           figure
             img(src='@/assets/curso/tema1/9.png', alt='')
 
-    .row.mt-5.cont_1(style="position:relative;")
+    .row.mt-5
       .col-md-10(style="place-self:center")
-        p.p-5.mb-0(data-aos="fade-up" style="position:relative") Lo anterior, permite que se evite a largo plazo el daño del medio ambiente, en la preservación de los ecosistemas y así según la #[strong ONU (2017)], lo que genera reducir la vulnerabilidad a los desastres de la sociedad a largo plazo, evitando que haya más personas pobres y damnificados por el cambio climático, pues es necesario optimizar la resiliencia de los sistemas ecológicos para reducir la exposición y la vulnerabilidad de los pobres a los desastres naturales. Entonces, la producción sostenible trae beneficios en el bienestar de la humanidad y del medio ambiente, garantizando la gestión de los recursos finitos del planeta a través de una economía responsable
+        .cont_1(style="position:relative")
+          p.p-5.mb-0(data-aos="fade-up" style="position:relative") Lo anterior, permite que se evite a largo plazo el daño del medio ambiente, en la preservación de los ecosistemas y así según la #[strong ONU (2017)], lo que genera reducir la vulnerabilidad a los desastres de la sociedad a largo plazo, evitando que haya más personas pobres y damnificados por el cambio climático, pues es necesario optimizar la resiliencia de los sistemas ecológicos para reducir la exposición y la vulnerabilidad de los pobres a los desastres naturales. Entonces, la producción sostenible trae beneficios en el bienestar de la humanidad y del medio ambiente, garantizando la gestión de los recursos finitos del planeta a través de una economía responsable
       .col-md-2(style="place-self:center")
         figure.text-center
           img(src="@/assets/curso/tema1/10.png" data-aos="fade-left" style="position:relative;max-width:200px;display:inline;")
@@ -65,7 +67,7 @@
         figure
           img(src="@/assets/curso/tema1/11.png" data-aos="fade-right")
       .col-md-7
-        p(data-aos="fade-up") El consumo y la producción sostenible trae efectos en la manera en que se gestionan las conductas de los consumidores, pues a mayor eficacia de los recursos mayor aprovechamiento en el consumo, lo cual genera oportunidades económicas porque se crean nuevas formas de entender la producción, desde una mirada de competitividad ambiental y social, más que económica.
+        p.mt-4(data-aos="fade-up") El consumo y la producción sostenible trae efectos en la manera en que se gestionan las conductas de los consumidores, pues a mayor eficacia de los recursos mayor aprovechamiento en el consumo, lo cual genera oportunidades económicas porque se crean nuevas formas de entender la producción, desde una mirada de competitividad ambiental y social, más que económica.
         p.mt-4(data-aos="fade-up") Los beneficios en la producción se ven reflejados en el consumo sostenible, porque este permite que haya una manufactura circular y se adquieran nuevas capacidades organizacionales en la generación de empleo, de bienes y servicios que contribuyan al desarrollo de las actuales y futuras organizaciones.
 
     Separador
@@ -120,19 +122,21 @@
     br
     .row.mt-5
       .col-md-9(style="place-self:center")
-        p.parrafo_1(data-aos="fade-up" style="position:relative;z-index:1;") En resumen, la huella ecológica tiene como objetivo determinar qué superficie es ecológicamente productiva para producir recursos para el ser humano y para poder tolerar los residuos que genera. Según Schneider y Samaniego (2009), citando a Carballo (2008), permite también medir el impacto de los hábitos de consumo, lo cual es un indicador de sostenibilidad a escala internacional. Además, el cálculo de la huella ecológica tiene aspectos como la alimentación, el hogar, el transporte, los bienes de consumo, servicios, y estos según Schneider y Samaniego (2009) pueden estar divididos en las subcategorías ya mencionadas.
+        .parrafo_1.p-4(style="position:relative")
+          p(data-aos="fade-up" style="position:relative;") En resumen, la huella ecológica tiene como objetivo determinar qué superficie es ecológicamente productiva para producir recursos para el ser humano y para poder tolerar los residuos que genera. Según Schneider y Samaniego (2009), citando a Carballo (2008), permite también medir el impacto de los hábitos de consumo, lo cual es un indicador de sostenibilidad a escala internacional. Además, el cálculo de la huella ecológica tiene aspectos como la alimentación, el hogar, el transporte, los bienes de consumo, servicios, y estos según Schneider y Samaniego (2009) pueden estar divididos en las subcategorías ya mencionadas.
       .col-md-3
-        figure
-          img(src="@/assets/curso/tema1/16.png" data-aos="fade-left" style="position:relative;z-index:1;")
+        figure.text-center
+          img(src="@/assets/curso/tema1/16.png" data-aos="fade-left" style="position:relative;max-width:250px;z-index:1;display:inline;")
 
     br
     br
     .row.mt-5
       .col-md-3
-        figure
-          img(src="@/assets/curso/tema1/17.png" data-aos="fade-left" style="position:relative;z-index:2;")
+        figure.text-center
+          img(src="@/assets/curso/tema1/17.png" data-aos="fade-left" style="position:relative;max-width:250px;z-index:1;display:inline;")
       .col-md-9(style="place-self:center")
-        p.parrafo_2(data-aos="fade-up" style="position:relative;z-index:1;") En cuanto a la huella de carbono, esta se utiliza para evaluar el impacto de la actividad antropogénica en el medio ambiente. La HC considera los 6 GEI identificados en el Protocolo de Kioto: dióxido de carbono (CO2), metano (CH4), óxido nitroso (N2O), hidrofluorocarbonos (HFC), perfluorocarbonos (PFC) y hexafluoruro de azufre (SF6). La HC se mide en toneladas equivalentes de dióxido de carbono (tCO2e), a fin de poder expresar las emisiones de los distintos gases de efecto invernadero en una unidad común. La medida (CO2e) se calcula multiplicando las emisiones de cada uno de los 6 GEI por su respectivo potencial de calentamiento global (PCG) al cabo de 100 años (p. 25).
+        .parrafo_2.p-4(style="position:relative")
+          p(data-aos="fade-up" style="position:relative;") En cuanto a la huella de carbono, esta se utiliza para evaluar el impacto de la actividad antropogénica en el medio ambiente. La HC considera los 6 GEI identificados en el Protocolo de Kioto: dióxido de carbono (CO2), metano (CH4), óxido nitroso (N2O), hidrofluorocarbonos (HFC), perfluorocarbonos (PFC) y hexafluoruro de azufre (SF6). La HC se mide en toneladas equivalentes de dióxido de carbono (tCO2e), a fin de poder expresar las emisiones de los distintos gases de efecto invernadero en una unidad común. La medida (CO2e) se calcula multiplicando las emisiones de cada uno de los 6 GEI por su respectivo potencial de calentamiento global (PCG) al cabo de 100 años (p. 25).
 
     p.mt-5(data-aos="fade-up") Por tal razón, es necesario que las organizaciones y países industrializados midan su huella de carbono, primero identificando las fuentes de emisión para la toma de decisiones frente a la producción y cómo se puede revertir la emisión directa o indirecta.
 
@@ -183,13 +187,13 @@ export default {
         texto: '',
         titulo:
           'La producción sostenible se relaciona con el consumo responsable, porque a medida que se consume de forma desmesurada la producción incrementa, lo que a largo plazo trae escasez creciente por el aumento de la demanda.',
-        imagen: require('@/assets/curso/tema1/4.png'),
+        imagen: require('@/assets/curso/tema1/4.jpg'),
       },
       {
         texto: '',
         titulo:
           'Una manera de tener un consumo responsable es que el consumo de bienes manufacturados y servicios se dé en un contexto y ambiente sano y ecológicamente equilibrado, que garantice recursos para las sociedades futuras.',
-        imagen: require('@/assets/curso/tema1/5.png'),
+        imagen: require('@/assets/curso/tema1/5.jpg'),
       },
     ],
   }),
@@ -215,15 +219,16 @@ export default {
   background: url(../assets/curso/tema1/6.png)
   background-size: cover
   background-position: center
+  border-radius: 20px
 .slyder-a__tipo-b
   padding: 1.5rem
 .cont_1:before
   position: absolute
   content: ''
   background-color: #E1EFEF
-  width: 87%
-  height: 76%
-  top: 12%
+  width: 110%
+  height: 100%
+  top: 0
 .tabs-b__tab
   background-color: #C6CBD0
 .tabs-b.color-secundario .tabs-b__tab--active
@@ -232,19 +237,17 @@ export default {
   content: ''
   position: absolute
   width: 120%
-  height: 140%
+  height: 100%
   background-color: #C9F0EE
-  z-index: -1
-  top: -20%
+  top: 0%
   left: -2%
 .parrafo_2:before
   content: ''
   position: absolute
   width: 112%
-  height: 140%
+  height: 100%
   background-color: #F8EAEA
-  z-index: -1
-  top: -20%
+  top: 0%
   left: -10%
 .bloque-texto-b.color-primario:before
   background-color: #E1EFEF

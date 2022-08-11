@@ -48,7 +48,7 @@
             figure
               img(src='@/assets/curso/tema3/6.png', alt='' data-aos="zoom-in-up")
           .col-md-7.mb-4.mb-md-0
-            h5(data-aos="fade-up") “De la cuna a la puerta”
+            h5.mt-4(data-aos="fade-up") “De la cuna a la puerta”
             p(data-aos="fade-up") Si por el contrario solo se tiene en cuenta las entradas y salidas, desde que se obtiene materia prima hasta que el producto se comercializa (llega al mercado) se denomina “de la cuna a la puerta”. 
         .row.pt-5
           .col-md-7.mb-4.mb-md-0
@@ -122,7 +122,7 @@
         figure
           img(src="@/assets/curso/tema3/15.png" data-aos="zoom-in-up" style="position:relative")
       .col-md-9(style="place-self:center;")
-        h4.mt-4(data-aos="fade-up" style="position:relative") Conocer el ciclo de vida de un producto permite:
+        h3.mt-4(data-aos="fade-up" style="position:relative") Conocer el ciclo de vida de un producto permite:
         .row.mt-4
           .col-md-6
             ul.lista-ul
@@ -206,7 +206,7 @@ export default {
 .cont_final_3:before
   content: ''
   position: absolute
-  width: 90%
+  width: 100%
   height: 100%
   right: 0
   border-top-left-radius: 200px
