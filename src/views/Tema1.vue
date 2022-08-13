@@ -256,4 +256,7 @@ export default {
     width: 100%
   .parrafo_1:before
     width: 100%
+  .parrafo_2:before
+    width: 100%
+    left: 0%
 </style>
