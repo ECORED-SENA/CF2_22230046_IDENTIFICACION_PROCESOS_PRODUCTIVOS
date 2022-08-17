@@ -128,33 +128,33 @@
             ul.lista-ul
               li(data-aos="fade-up" style="position:relative")
                 i.fas.fa-check(style="color:#084E4E;")
-                | Comparar la funcionalidad entre productos con características similares
+                | Comparar la funcionalidad entre productos con características similares.
               li(data-aos="fade-up" style="position:relative")
                 i.fas.fa-check(style="color:#084E4E;")
-                | Tomar decisiones en la etapa de diseño del producto o mejoramiento de los ya existentes
+                | Tomar decisiones en la etapa de diseño del producto o mejoramiento de los ya existentes.
               li(data-aos="fade-up" style="position:relative")
                 i.fas.fa-check(style="color:#084E4E;")
-                | Implementar estrategias para mejorar el proceso y de este modo, permanecer por más tiempo en el mercado
+                | Implementar estrategias para mejorar el proceso y de este modo, permanecer por más tiempo en el mercado.
               li(data-aos="fade-up" style="position:relative")
                 i.fas.fa-check(style="color:#084E4E;")
-                | Diseñar estrategias de gestión
+                | Diseñar estrategias de gestión.
               li(data-aos="fade-up" style="position:relative")
                 i.fas.fa-check(style="color:#084E4E;")
-                | Minimizar impactos ambientales
+                | Minimizar impactos ambientales.
           .col-md-6
             ul.lista-ul
               li(data-aos="fade-up" style="position:relative")
                 i.fas.fa-check(style="color:#084E4E;")
-                | Proporcionar al cliente información sobre las características ambientales del producto y opciones para la disposición final
+                | Proporcionar al cliente información sobre las características ambientales del producto y opciones para la disposición final.
               li(data-aos="fade-up" style="position:relative")
                 i.fas.fa-check(style="color:#084E4E;")
-                | Mejorar la imagen organizacional y el marketing verde
+                | Mejorar la imagen organizacional y el marketing verde.
               li(data-aos="fade-up" style="position:relative")
                 i.fas.fa-check(style="color:#084E4E;")
-                | Seleccionar buenos proveedores y gestión en la cadena de suministro
+                | Seleccionar buenos proveedores y gestión en la cadena de suministro.
               li(data-aos="fade-up" style="position:relative")
                 i.fas.fa-check(style="color:#084E4E;")
-                | Identificar las necesidades
+                | Identificar las necesidades.
 
 
 

@@ -1,1 +1,1 @@
-module.exports = 'Procesos Productivos Sostenibles'
+module.exports = 'Procesos productivos sostenibles'

@@ -42,7 +42,7 @@
       .row.p-5
         .col-md-4.mb-4.mb-md-0
           h4 Lo cual hace que los gases de efecto invernadero
-          p En lo que tiene que ver con el traslado de personas a sus lugares de trabajo disminuya, pues los trabajos online o remotos contribuyen a la reducción de material particulado por la descongestión urbana en movilidad y uso de transporte público o privado.  
+          p En lo que tiene que ver con el traslado de personas a sus lugares de trabajo disminuya, pues los trabajos #[em online] o remotos contribuyen a la reducción de material particulado por la descongestión urbana en movilidad y uso de transporte público o privado.  
         .col-md-8
           figure
             img(src='@/assets/curso/tema1/8.png', alt='')
@@ -87,8 +87,8 @@
             img(src="@/assets/curso/tema1/15.svg")
       .py-4.py-md-5(titulo="Huella de carbono" :icono="require('@/assets/curso/tema1/13.svg')")
         .row.p-4
-          p La huella de carbono (CO2) o HC, realiza la contabilidad de las emisiones de carbono emitidas por gases de efecto invernadero producto de la acción humana, la deforestación, la utilización de combustibles fósiles, la producción animal, entre otras.
-          p.mt-4 Las fuentes de emisión de CO2 están divididas entre emisiones directas o indirectas y estas últimas tienen además otra clasificación:
+          p La huella de carbono (CO#[sub 2]) o HC, realiza la contabilidad de las emisiones de carbono emitidas por gases de efecto invernadero producto de la acción humana, la deforestación, la utilización de combustibles fósiles, la producción animal, entre otras.
+          p.mt-4 Las fuentes de emisión de CO#[sub 2] están divididas entre emisiones directas o indirectas y estas últimas tienen además otra clasificación:
 
           .tabla-a.color-acento-botones.mt-5.col-md-10.m-auto
             table
@@ -136,7 +136,7 @@
           img(src="@/assets/curso/tema1/17.png" data-aos="fade-left" style="position:relative;max-width:250px;z-index:1;display:inline;")
       .col-md-9(style="place-self:center")
         .parrafo_2.p-4(style="position:relative")
-          p(data-aos="fade-up" style="position:relative;") En cuanto a la huella de carbono, esta se utiliza para evaluar el impacto de la actividad antropogénica en el medio ambiente. La HC considera los 6 GEI identificados en el Protocolo de Kioto: dióxido de carbono (CO2), metano (CH4), óxido nitroso (N2O), hidrofluorocarbonos (HFC), perfluorocarbonos (PFC) y hexafluoruro de azufre (SF6). La HC se mide en toneladas equivalentes de dióxido de carbono (tCO2e), a fin de poder expresar las emisiones de los distintos gases de efecto invernadero en una unidad común. La medida (CO2e) se calcula multiplicando las emisiones de cada uno de los 6 GEI por su respectivo potencial de calentamiento global (PCG) al cabo de 100 años (p. 25).
+          p(data-aos="fade-up" style="position:relative;") En cuanto a la huella de carbono, esta se utiliza para evaluar el impacto de la actividad antropogénica en el medio ambiente. La HC considera los 6 GEI identificados en el Protocolo de Kioto: dióxido de carbono (CO#[sub 2]), metano (CH4), óxido nitroso (N2O), hidrofluorocarbonos (HFC), perfluorocarbonos (PFC) y hexafluoruro de azufre (SF6). La HC se mide en toneladas equivalentes de dióxido de carbono (tCO#[sub 2]e), a fin de poder expresar las emisiones de los distintos gases de efecto invernadero en una unidad común. La medida (CO#[sub 2]e) se calcula multiplicando las emisiones de cada uno de los 6 GEI por su respectivo potencial de calentamiento global (PCG) al cabo de 100 años (p. 25).
 
     p.mt-5(data-aos="fade-up") Por tal razón, es necesario que las organizaciones y países industrializados midan su huella de carbono, primero identificando las fuentes de emisión para la toma de decisiones frente a la producción y cómo se puede revertir la emisión directa o indirecta.
 

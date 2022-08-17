@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Procesos Productivos Sostenibles',
+    componenteFormativo: 'Procesos productivos sostenibles',
     descripcionCurso:
       'En este componente formativo se abordan temas que le permitirán comprender de forma general, el ciclo de vida de un producto y la importancia de implementar la sostenibilidad en los procesos productivos de una organización',
     imagenBannerPrincipal: '',
@@ -180,7 +180,7 @@ export default {
     {
       termino: 'Huella ecológica',
       significado:
-        'ndicador ambiental de carácter integrador del impacto que ejerce una cierta comunidad humana, país, región o ciudad sobre su entorno; consideran tanto los recursos necesarios como los residuos generados para el mantenimiento del modelo de producción y consumo de la comunidad.',
+        'indicador ambiental de carácter integrador del impacto que ejerce una cierta comunidad humana, país, región o ciudad sobre su entorno; consideran tanto los recursos necesarios como los residuos generados para el mantenimiento del modelo de producción y consumo de la comunidad.',
     },
     {
       termino: 'Producción',

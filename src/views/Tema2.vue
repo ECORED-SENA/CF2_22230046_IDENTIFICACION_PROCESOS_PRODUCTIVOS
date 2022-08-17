@@ -78,7 +78,7 @@
             .col-8.ps-2.pe-2.pt-4.pb-4(style="border-top-left-radius:20px;border-top-right-radius:20px;")
               img(src='@/assets/curso/tema2/8.svg' alt='' style="max-width:200px;height:200px;")
           .ps-2.pe-2.pt-4.pb-4(style="background-color:#DFF6F5;border-bottom-left-radius:20px;border-bottom-right-radius:20px;")
-            h5.mb-0.text-center Emisiones de CO2
+            h5.mb-0.text-center Emisiones de CO#[sub 2]
         .tarjeta.color-acento-botones.p-0(style="background-color:rgb(155, 203, 203);")
           .row.justify-content-center
             .col-8.ps-2.pe-2.pt-4.pb-4(style="border-top-left-radius:20px;border-top-right-radius:20px;")
