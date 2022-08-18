@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Actividad did&amp;#225;ctica PPS" />
+              <option name="title_text" value="Actividad did&amp;#225;cticacf2pps" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -74,6 +74,7 @@
             </options>
           </option>
           <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
